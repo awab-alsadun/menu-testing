@@ -1,0 +1,9 @@
+<plugin>
+    <groupId>org.pitest</groupId>
+    <artifactId>pitest-maven</artifactId>
+    <version>1.15.0</version>
+    <configuration>
+        <targetClasses>inventorymanagementsystem*</targetClasses>
+        <targetTests>inventorymanagementsystem*</targetTests>
+    </configuration>
+</plugin>
